@@ -7,6 +7,6 @@ import io.cucumber.testng.CucumberOptions;
 , glue="stepdefinitions"
 , monochrome = true
 , plugin = "html: reports/results.html")
-public class Runner1 extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 
 }
